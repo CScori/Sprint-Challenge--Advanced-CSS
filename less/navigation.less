@@ -5,6 +5,10 @@
     h1 {
         padding: 20px 0 10px 38%;
         font-size: 4rem;
+
+        @media @phone {
+            padding: 20px 0 10px 28%;
+        }
     }
     .nav {
         .layout(space-around, center) ;
@@ -12,7 +16,11 @@
         margin-left: 33%;
         width:38%;
        
-    
+        @media @phone {
+            .layout(space-evenly, center) ;
+            margin: 5px 5%;
+            width: 90%;
+        }
         a {
             text-decoration: none;
             color: black;
