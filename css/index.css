@@ -167,7 +167,7 @@ p {
   flex-direction: column;
 }
 .navigation h1 {
-  padding: 20px 0 10px 40%;
+  padding: 20px 0 10px 38%;
   font-size: 4rem;
 }
 .navigation .nav {
@@ -175,8 +175,8 @@ p {
   justify-content: space-around;
   align-content: center;
   padding: 10px;
-  margin-left: 32%;
-  width: 35%;
+  margin-left: 33%;
+  width: 38%;
 }
 .navigation .nav a {
   text-decoration: none;
@@ -234,6 +234,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 125px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F1F1F1;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
