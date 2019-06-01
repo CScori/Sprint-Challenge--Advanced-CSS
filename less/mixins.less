@@ -1,1 +1,17 @@
 // Mixins Here
+.layout (@justify, @content) {
+    display: flex;
+    justify-content: @justify;
+    align-content: @content;
+}
+
+.button (@bkg-color, @color) {
+    display: block;
+    background-color: @bkg-color;
+    color: @color;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px; 
+}
