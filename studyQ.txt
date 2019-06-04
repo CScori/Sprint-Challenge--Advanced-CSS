@@ -1,0 +1,10 @@
+1 adaptive allows the site to be visually scaled via breakpoints to fit a majority of device screns  vs responsive which is based on a percentage of the element being able to react to smaller viewports and stay within the set % say 50 at all views
+
+2 mobile first is designing for viewports 500px and down and scaling up to meet tablets and desktops using breakpoints and min width. desktop first is the standard for making the larger screen views first and then using max width to shrink porportioms to other viewports
+
+3 the font size % of 62.5 is based of the relative font of 16 px to set standard for rem at an easily multipliable scale from the 10 px so 2.5 rem equaling 25 px etc
+
+4 preprocessors are a way of shortening css code or sectioning code into smaller workable areas in less files that are a shorthand way of adding repeatable stylings of code colors fonts etc.
+
+5 my favorite concept in preprocessings is the mixin variable concept in relation to flex stylings its definitely something that will make coding lots of space quicker
+im still having issues using the variable for media queries it seems like they dont line up in the parenthesis breaking code and causing specificty issues

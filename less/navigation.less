@@ -1,1 +1,31 @@
 // Navigation code here
+.navigation {
+    .layout(space-evenly, center) ;
+    flex-direction: column;
+    h1 {
+        padding: 20px 0 10px 38%;
+        font-size: 4rem;
+
+        @media @phone {
+            padding: 20px 0 10px 28%;
+        }
+    }
+    .nav {
+        .layout(space-around, center) ;
+        padding: 10px;
+        margin-left: 33%;
+        width:38%;
+       
+        @media @phone {
+            .layout(space-evenly, center) ;
+            margin: 5px 5%;
+            width: 90%;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+        }
+       
+    }
+}
